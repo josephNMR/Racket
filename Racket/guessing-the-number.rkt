@@ -1,5 +1,7 @@
 #lang racket
 
+;This is using binary search. For a number between 1 and N, binary search runs in O(log(n)) times.
+
 (fprintf (current-output-port) "This program helps you guess a number from 1 - 100 by default. If you would like a new starting point for guessing,
 use (start first second) to guess the number between the 'first' and 'second' variables. If your guessed number is 
 higher, type (bigger). If smaller, type (smaller). 
